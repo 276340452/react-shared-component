@@ -1,0 +1,8 @@
+src/serviceWorker.ts
+*.test.js
+src/assets/*
+build/*
+config/*
+scripts/*
+node_env.js
+environment/*

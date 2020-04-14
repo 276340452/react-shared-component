@@ -7,11 +7,13 @@
 
 # testing
 /coverage
+/tmp
 
 # production
-/es
-/lib
 /build
+/lib
+/es
+/typings
 
 # misc
 .DS_Store

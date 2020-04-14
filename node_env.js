@@ -5,6 +5,7 @@ const rmdir = require("rmdir-promise");
 // 读取API文件;
 const lib = './lib';
 const es = './es';
+const typings = './typings';
 
 function deleteDir(dir){
   try {
@@ -24,3 +25,4 @@ function deleteDir(dir){
 }
 deleteDir(lib);
 deleteDir(es);
+deleteDir(typings);
